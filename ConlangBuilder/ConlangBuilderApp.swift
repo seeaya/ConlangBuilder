@@ -1,32 +1,24 @@
-//
-//  ConlangBuilderApp.swift
-//  ConlangBuilder
-//
-//  Created by Connor Barnes on 7/3/24.
-//
+// Copyright (c) Connor Barnes. All rights reserved.
 
-import SwiftUI
 import SwiftData
+import SwiftUI
 
 @main
+@MainActor
 struct ConlangBuilderApp: App {
-    var sharedModelContainer: ModelContainer = {
-        let schema = Schema([
-            Item.self,
-        ])
-        let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
-
-        do {
-            return try ModelContainer(for: schema, configurations: [modelConfiguration])
-        } catch {
-            fatalError("Could not create ModelContainer: \(error)")
-        }
-    }()
-
     var body: some Scene {
-        WindowGroup {
+        DocumentGroup(editing: .conlangDocument, migrationPlan: ConlangMigrationPlan.self) {
             ContentView()
+                .environment(Conlang())
+        } prepareDocument: { context in
+            do {
+                try context.validate()
+                // Don't want to start with pending edits
+                try context.save()
+            } catch {
+                // TODO: Handle gracefully
+                fatalError("Failed to prepare document")
+            }
         }
-        .modelContainer(sharedModelContainer)
     }
 }
