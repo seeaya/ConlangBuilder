@@ -1,5 +1,6 @@
 // Copyright (c) Connor Barnes. All rights reserved.
 
+import ConlangModels
 import SwiftData
 
 extension ModelContext {

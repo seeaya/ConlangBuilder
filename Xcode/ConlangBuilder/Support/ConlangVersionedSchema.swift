@@ -1,5 +1,6 @@
 // Copyright (c) Connor Barnes. All rights reserved.
 
+import ConlangModels
 @preconcurrency import SwiftData
 
 struct ConlangVersionedSchema: VersionedSchema {

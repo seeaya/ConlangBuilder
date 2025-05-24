@@ -3,6 +3,6 @@
 import SwiftData
 
 @Model
-class Conlang {
-    init() { }
+public final class Conlang {
+    public init() { }
 }

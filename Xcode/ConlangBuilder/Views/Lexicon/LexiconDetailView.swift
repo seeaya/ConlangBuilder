@@ -1,6 +1,7 @@
 // Copyright (c) Connor Barnes. All rights reserved.
 
 import Combine
+import ConlangModels
 import SwiftData
 import SwiftUI
 

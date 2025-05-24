@@ -2,19 +2,19 @@
 
 import Foundation
 import SwiftData
-import SwiftUI
+import SwiftUI // Needed for MutableCollection.move(fromOffsets:destination:)
 
 @Model
-class Definition {
-    var pronunciation: String
-    var localWord: String
-    var definitionDescription: String
-    private(set) var index: Int
+public class Definition {
+    public var pronunciation: String
+    public var localWord: String
+    public var definitionDescription: String
+    public private(set) var index: Int
 
     @Relationship(deleteRule: .nullify)
-    private(set) var word: Word?
+    public private(set) var word: Word?
 
-    init(
+    public init(
         pronunciation: String = "",
         localWord: String = "",
         definitionDescription: String = "",
@@ -28,7 +28,7 @@ class Definition {
 }
 
 // MARK: - Actions
-extension Definition {
+public extension Definition {
     func delete() {
         guard let word else { return }
         let index = self.index
@@ -48,27 +48,10 @@ extension Definition {
 }
 
 // MARK: - Samples
-extension Definition {
+public extension Definition {
     @MainActor static let sample1 = Definition(
         pronunciation: "Popcorn",
         localWord: "Blimp",
         definitionDescription: "A flying machine."
     )
-}
-
-// MARK: - Drag & Drop
-struct DefinitionProxy: Codable, Transferable {
-    static var transferRepresentation: some TransferRepresentation {
-        CodableRepresentation(contentType: .definition)
-    }
-
-    let id: PersistentIdentifier
-
-    init(for model: Definition) {
-        id = model.id
-    }
-
-    func model(for context: ModelContext) -> Definition? {
-        context.model(for: id) as? Definition
-    }
 }

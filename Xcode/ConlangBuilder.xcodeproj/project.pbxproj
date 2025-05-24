@@ -3,148 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5A3F4E072DDA2622000D9122 /* DebugUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3F4E062DDA261E000D9122 /* DebugUtilities.swift */; };
-		5A48371D2DD783F100738E51 /* Sidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A48371C2DD783E900738E51 /* Sidebar.swift */; };
-		5A4864BA2DD7E21E00738E51 /* SidebarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4864B92DD7E21A00738E51 /* SidebarViewController.swift */; };
-		5A4864BC2DD7E78200738E51 /* SidebarContentProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4864BB2DD7E77E00738E51 /* SidebarContentProvider.swift */; };
-		5A4864BE2DD7E8D100738E51 /* SidebarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4864BD2DD7E8BD00738E51 /* SidebarCoordinator.swift */; };
-		5A4864C02DD7EB5D00738E51 /* SidebarPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4864BF2DD7EB5B00738E51 /* SidebarPreview.swift */; };
-		5A4864C22DD7ED9200738E51 /* Sidebar+Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4864C12DD7ED8800738E51 /* Sidebar+Cell.swift */; };
-		5A4864C42DD8DBEA00738E51 /* Sidebar+Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4864C32DD8DBE600738E51 /* Sidebar+Menu.swift */; };
-		5A4864C62DD8E3FA00738E51 /* HostingMenuTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4864C52DD8E3F500738E51 /* HostingMenuTableView.swift */; };
-		5A4864C92DD8F90200738E51 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4864C82DD8F90000738E51 /* Database.swift */; };
-		5A4864CB2DD8F98700738E51 /* Database+ModelActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4864CA2DD8F98200738E51 /* Database+ModelActor.swift */; };
-		5A4C45EB2C3600800033066D /* Conlang.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4C45EA2C36007F0033066D /* Conlang.swift */; };
-		5A4C45ED2C36014A0033066D /* PreviewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4C45EC2C36014A0033066D /* PreviewContainer.swift */; };
-		5A4C45EF2C36065C0033066D /* ModelContext+Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4C45EE2C36065C0033066D /* ModelContext+Validation.swift */; };
-		5A4C45F12C360C1D0033066D /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4C45F02C360C1D0033066D /* Word.swift */; };
-		5A4C45F32C3613F30033066D /* ModelValidationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4C45F22C3613F30033066D /* ModelValidationView.swift */; };
-		5A4C45F52C3721210033066D /* PreviewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4C45F42C3721210033066D /* PreviewWrapper.swift */; };
-		5A6948212C39024F00646062 /* DefinitionEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6948202C39024F00646062 /* DefinitionEditor.swift */; };
-		5A6948232C3909D500646062 /* WindowFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6948222C3909D500646062 /* WindowFrame.swift */; };
-		5A6E79412C389C2C00F616C6 /* LexiconDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6E79402C389C2C00F616C6 /* LexiconDetailView.swift */; };
-		5A6E79432C38A10A00F616C6 /* WordEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6E79422C38A10A00F616C6 /* WordEditor.swift */; };
-		5A6E79452C38A34B00F616C6 /* Definition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6E79442C38A34B00F616C6 /* Definition.swift */; };
-		5A7E320D2C3B4F0300CC8F7B /* PartOfSpeech.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7E320C2C3B4F0300CC8F7B /* PartOfSpeech.swift */; };
-		5A7E320F2C3B515700CC8F7B /* ModelSelectionSidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7E320E2C3B515700CC8F7B /* ModelSelectionSidebar.swift */; };
-		5ACA998E2C3B279E00A3B857 /* BottomBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACA998D2C3B279E00A3B857 /* BottomBar.swift */; };
-		5AFE6A542C35FB3000A57CDF /* ConlangBuilderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFE6A532C35FB3000A57CDF /* ConlangBuilderApp.swift */; };
-		5AFE6A562C35FB3000A57CDF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFE6A552C35FB3000A57CDF /* ContentView.swift */; };
-		5AFE6A5A2C35FB3100A57CDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AFE6A592C35FB3100A57CDF /* Assets.xcassets */; };
-		5AFE6A5D2C35FB3100A57CDF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AFE6A5C2C35FB3100A57CDF /* Preview Assets.xcassets */; };
-		5AFE6A652C35FC7B00A57CDF /* UTTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFE6A642C35FC7B00A57CDF /* UTTypes.swift */; };
-		5AFE6A692C35FE6B00A57CDF /* ConlangVersionedSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFE6A682C35FE6B00A57CDF /* ConlangVersionedSchema.swift */; };
+		5A2E3DA12DE16807002774E1 /* ConlangModels in Frameworks */ = {isa = PBXBuildFile; productRef = 5A2E3DA02DE16807002774E1 /* ConlangModels */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5A3F4E062DDA261E000D9122 /* DebugUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugUtilities.swift; sourceTree = "<group>"; };
-		5A48371C2DD783E900738E51 /* Sidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sidebar.swift; sourceTree = "<group>"; };
-		5A4864B92DD7E21A00738E51 /* SidebarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarViewController.swift; sourceTree = "<group>"; };
-		5A4864BB2DD7E77E00738E51 /* SidebarContentProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarContentProvider.swift; sourceTree = "<group>"; };
-		5A4864BD2DD7E8BD00738E51 /* SidebarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarCoordinator.swift; sourceTree = "<group>"; };
-		5A4864BF2DD7EB5B00738E51 /* SidebarPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarPreview.swift; sourceTree = "<group>"; };
-		5A4864C12DD7ED8800738E51 /* Sidebar+Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sidebar+Cell.swift"; sourceTree = "<group>"; };
-		5A4864C32DD8DBE600738E51 /* Sidebar+Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sidebar+Menu.swift"; sourceTree = "<group>"; };
-		5A4864C52DD8E3F500738E51 /* HostingMenuTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingMenuTableView.swift; sourceTree = "<group>"; };
-		5A4864C82DD8F90000738E51 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
-		5A4864CA2DD8F98200738E51 /* Database+ModelActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Database+ModelActor.swift"; sourceTree = "<group>"; };
-		5A4C45EA2C36007F0033066D /* Conlang.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conlang.swift; sourceTree = "<group>"; };
-		5A4C45EC2C36014A0033066D /* PreviewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewContainer.swift; sourceTree = "<group>"; };
-		5A4C45EE2C36065C0033066D /* ModelContext+Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ModelContext+Validation.swift"; sourceTree = "<group>"; };
-		5A4C45F02C360C1D0033066D /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
-		5A4C45F22C3613F30033066D /* ModelValidationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelValidationView.swift; sourceTree = "<group>"; };
-		5A4C45F42C3721210033066D /* PreviewWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewWrapper.swift; sourceTree = "<group>"; };
-		5A6948202C39024F00646062 /* DefinitionEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefinitionEditor.swift; sourceTree = "<group>"; };
-		5A6948222C3909D500646062 /* WindowFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowFrame.swift; sourceTree = "<group>"; };
-		5A6E79402C389C2C00F616C6 /* LexiconDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LexiconDetailView.swift; sourceTree = "<group>"; };
-		5A6E79422C38A10A00F616C6 /* WordEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordEditor.swift; sourceTree = "<group>"; };
-		5A6E79442C38A34B00F616C6 /* Definition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Definition.swift; sourceTree = "<group>"; };
-		5A7E320C2C3B4F0300CC8F7B /* PartOfSpeech.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartOfSpeech.swift; sourceTree = "<group>"; };
-		5A7E320E2C3B515700CC8F7B /* ModelSelectionSidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelSelectionSidebar.swift; sourceTree = "<group>"; };
-		5ACA998D2C3B279E00A3B857 /* BottomBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomBar.swift; sourceTree = "<group>"; };
 		5AFE6A502C35FB3000A57CDF /* ConlangBuilder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConlangBuilder.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5AFE6A532C35FB3000A57CDF /* ConlangBuilderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConlangBuilderApp.swift; sourceTree = "<group>"; };
-		5AFE6A552C35FB3000A57CDF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		5AFE6A592C35FB3100A57CDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5AFE6A5C2C35FB3100A57CDF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		5AFE6A5E2C35FB3100A57CDF /* ConlangBuilder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ConlangBuilder.entitlements; sourceTree = "<group>"; };
-		5AFE6A642C35FC7B00A57CDF /* UTTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UTTypes.swift; sourceTree = "<group>"; };
-		5AFE6A662C35FCC900A57CDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		5AFE6A682C35FE6B00A57CDF /* ConlangVersionedSchema.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConlangVersionedSchema.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		5A2E3DD02DE16A23002774E1 /* ConlangBuilder */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = ConlangBuilder; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		5AFE6A4D2C35FB3000A57CDF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A2E3DA12DE16807002774E1 /* ConlangModels in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5A48371B2DD783DE00738E51 /* Sidebars */ = {
-			isa = PBXGroup;
-			children = (
-				5A48371C2DD783E900738E51 /* Sidebar.swift */,
-				5A4864C12DD7ED8800738E51 /* Sidebar+Cell.swift */,
-				5A4864C32DD8DBE600738E51 /* Sidebar+Menu.swift */,
-				5A4864BF2DD7EB5B00738E51 /* SidebarPreview.swift */,
-				5A4864BD2DD7E8BD00738E51 /* SidebarCoordinator.swift */,
-				5A4864B92DD7E21A00738E51 /* SidebarViewController.swift */,
-				5A4864BB2DD7E77E00738E51 /* SidebarContentProvider.swift */,
-			);
-			path = Sidebars;
-			sourceTree = "<group>";
-		};
-		5A4864C72DD8F8FB00738E51 /* Database */ = {
-			isa = PBXGroup;
-			children = (
-				5A4864C82DD8F90000738E51 /* Database.swift */,
-				5A4864CA2DD8F98200738E51 /* Database+ModelActor.swift */,
-			);
-			path = Database;
-			sourceTree = "<group>";
-		};
-		5A6E79062C3894E000F616C6 /* Lexicon */ = {
-			isa = PBXGroup;
-			children = (
-				5A6E79402C389C2C00F616C6 /* LexiconDetailView.swift */,
-				5A6E79422C38A10A00F616C6 /* WordEditor.swift */,
-				5A6948202C39024F00646062 /* DefinitionEditor.swift */,
-			);
-			path = Lexicon;
-			sourceTree = "<group>";
-		};
-		5A6E79092C38970500F616C6 /* Support */ = {
-			isa = PBXGroup;
-			children = (
-				5A4C45F22C3613F30033066D /* ModelValidationView.swift */,
-				5ACA998D2C3B279E00A3B857 /* BottomBar.swift */,
-				5A4C45F42C3721210033066D /* PreviewWrapper.swift */,
-				5A6948222C3909D500646062 /* WindowFrame.swift */,
-				5A4864C52DD8E3F500738E51 /* HostingMenuTableView.swift */,
-				5A48371B2DD783DE00738E51 /* Sidebars */,
-			);
-			path = Support;
-			sourceTree = "<group>";
-		};
-		5A7E320B2C3B4EED00CC8F7B /* PartOfSpeech */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = PartOfSpeech;
-			sourceTree = "<group>";
-		};
 		5AFE6A472C35FB3000A57CDF = {
 			isa = PBXGroup;
 			children = (
-				5AFE6A522C35FB3000A57CDF /* ConlangBuilder */,
+				5A2E3DD02DE16A23002774E1 /* ConlangBuilder */,
 				5AFE6A512C35FB3000A57CDF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -155,65 +44,6 @@
 				5AFE6A502C35FB3000A57CDF /* ConlangBuilder.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		5AFE6A522C35FB3000A57CDF /* ConlangBuilder */ = {
-			isa = PBXGroup;
-			children = (
-				5AFE6A662C35FCC900A57CDF /* Info.plist */,
-				5AFE6A532C35FB3000A57CDF /* ConlangBuilderApp.swift */,
-				5A4864C72DD8F8FB00738E51 /* Database */,
-				5AFE6A6B2C35FF3200A57CDF /* Models */,
-				5AFE6A6A2C35FF2D00A57CDF /* Views */,
-				5AFE6A672C35FE5E00A57CDF /* Support */,
-				5AFE6A592C35FB3100A57CDF /* Assets.xcassets */,
-				5AFE6A5E2C35FB3100A57CDF /* ConlangBuilder.entitlements */,
-				5AFE6A5B2C35FB3100A57CDF /* Preview Content */,
-			);
-			path = ConlangBuilder;
-			sourceTree = "<group>";
-		};
-		5AFE6A5B2C35FB3100A57CDF /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				5AFE6A5C2C35FB3100A57CDF /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		5AFE6A672C35FE5E00A57CDF /* Support */ = {
-			isa = PBXGroup;
-			children = (
-				5AFE6A682C35FE6B00A57CDF /* ConlangVersionedSchema.swift */,
-				5A4C45EE2C36065C0033066D /* ModelContext+Validation.swift */,
-				5A4C45EC2C36014A0033066D /* PreviewContainer.swift */,
-				5AFE6A642C35FC7B00A57CDF /* UTTypes.swift */,
-				5A3F4E062DDA261E000D9122 /* DebugUtilities.swift */,
-			);
-			path = Support;
-			sourceTree = "<group>";
-		};
-		5AFE6A6A2C35FF2D00A57CDF /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				5AFE6A552C35FB3000A57CDF /* ContentView.swift */,
-				5A7E320E2C3B515700CC8F7B /* ModelSelectionSidebar.swift */,
-				5A7E320B2C3B4EED00CC8F7B /* PartOfSpeech */,
-				5A6E79062C3894E000F616C6 /* Lexicon */,
-				5A6E79092C38970500F616C6 /* Support */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		5AFE6A6B2C35FF3200A57CDF /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				5A4C45EA2C36007F0033066D /* Conlang.swift */,
-				5A4C45F02C360C1D0033066D /* Word.swift */,
-				5A6E79442C38A34B00F616C6 /* Definition.swift */,
-				5A7E320C2C3B4F0300CC8F7B /* PartOfSpeech.swift */,
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +61,9 @@
 			);
 			dependencies = (
 				5A6E78D12C38857400F616C6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5A2E3DD02DE16A23002774E1 /* ConlangBuilder */,
 			);
 			name = ConlangBuilder;
 			productName = ConlangBuilder;
@@ -263,6 +96,7 @@
 			mainGroup = 5AFE6A472C35FB3000A57CDF;
 			packageReferences = (
 				5A6E78CF2C38852800F616C6 /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */,
+				5A2E3D9F2DE16807002774E1 /* XCLocalSwiftPackageReference "../Packages/ConlangModels" */,
 			);
 			productRefGroup = 5AFE6A512C35FB3000A57CDF /* Products */;
 			projectDirPath = "";
@@ -278,8 +112,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AFE6A5D2C35FB3100A57CDF /* Preview Assets.xcassets in Resources */,
-				5AFE6A5A2C35FB3100A57CDF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,35 +122,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A6E79432C38A10A00F616C6 /* WordEditor.swift in Sources */,
-				5A4864C02DD7EB5D00738E51 /* SidebarPreview.swift in Sources */,
-				5A4C45ED2C36014A0033066D /* PreviewContainer.swift in Sources */,
-				5A4864CB2DD8F98700738E51 /* Database+ModelActor.swift in Sources */,
-				5A4864C22DD7ED9200738E51 /* Sidebar+Cell.swift in Sources */,
-				5A3F4E072DDA2622000D9122 /* DebugUtilities.swift in Sources */,
-				5A4C45F12C360C1D0033066D /* Word.swift in Sources */,
-				5AFE6A692C35FE6B00A57CDF /* ConlangVersionedSchema.swift in Sources */,
-				5A6E79452C38A34B00F616C6 /* Definition.swift in Sources */,
-				5A4864C42DD8DBEA00738E51 /* Sidebar+Menu.swift in Sources */,
-				5A6948232C3909D500646062 /* WindowFrame.swift in Sources */,
-				5A4864C62DD8E3FA00738E51 /* HostingMenuTableView.swift in Sources */,
-				5AFE6A562C35FB3000A57CDF /* ContentView.swift in Sources */,
-				5A48371D2DD783F100738E51 /* Sidebar.swift in Sources */,
-				5A6948212C39024F00646062 /* DefinitionEditor.swift in Sources */,
-				5A7E320D2C3B4F0300CC8F7B /* PartOfSpeech.swift in Sources */,
-				5A4864BE2DD7E8D100738E51 /* SidebarCoordinator.swift in Sources */,
-				5A4C45F52C3721210033066D /* PreviewWrapper.swift in Sources */,
-				5A4C45F32C3613F30033066D /* ModelValidationView.swift in Sources */,
-				5ACA998E2C3B279E00A3B857 /* BottomBar.swift in Sources */,
-				5A6E79412C389C2C00F616C6 /* LexiconDetailView.swift in Sources */,
-				5A4C45EB2C3600800033066D /* Conlang.swift in Sources */,
-				5AFE6A542C35FB3000A57CDF /* ConlangBuilderApp.swift in Sources */,
-				5A4864BA2DD7E21E00738E51 /* SidebarViewController.swift in Sources */,
-				5A7E320F2C3B515700CC8F7B /* ModelSelectionSidebar.swift in Sources */,
-				5AFE6A652C35FC7B00A57CDF /* UTTypes.swift in Sources */,
-				5A4C45EF2C36065C0033066D /* ModelContext+Validation.swift in Sources */,
-				5A4864C92DD8F90200738E51 /* Database.swift in Sources */,
-				5A4864BC2DD7E78200738E51 /* SidebarContentProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -569,6 +372,13 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCLocalSwiftPackageReference section */
+		5A2E3D9F2DE16807002774E1 /* XCLocalSwiftPackageReference "../Packages/ConlangModels" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../Packages/ConlangModels;
+		};
+/* End XCLocalSwiftPackageReference section */
+
 /* Begin XCRemoteSwiftPackageReference section */
 		5A6E78CF2C38852800F616C6 /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */ = {
 			isa = XCRemoteSwiftPackageReference;
@@ -581,6 +391,10 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		5A2E3DA02DE16807002774E1 /* ConlangModels */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ConlangModels;
+		};
 		5A6E78D02C38857400F616C6 /* SwiftLintBuildToolPlugin */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 5A6E78CF2C38852800F616C6 /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */;
