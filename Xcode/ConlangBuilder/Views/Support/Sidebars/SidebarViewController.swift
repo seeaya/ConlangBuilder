@@ -9,7 +9,10 @@ final class SidebarViewController<
     RowContent: View,
     MenuContent: View,
     Coordinator: SidebarCoordinator
->: NSViewController, NSTableViewDelegate where
+>:
+    NSViewController,
+    NSTableViewDelegate
+where
     Model.ID == PersistentIdentifier,
     Coordinator.Model == Model,
     Coordinator.RowContent == RowContent,

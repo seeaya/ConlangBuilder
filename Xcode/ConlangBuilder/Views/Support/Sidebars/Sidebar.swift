@@ -7,7 +7,11 @@ struct Sidebar<
     Model: PersistentModel,
     RowContent: View,
     MenuContent: View
->: View where Model.ID == PersistentIdentifier {
+>:
+    View
+where
+    Model.ID == PersistentIdentifier
+{ // swiftlint:disable:this opening_brace
     @Binding private var selection: Set<PersistentIdentifier>
 
     @Environment(\.modelContext)

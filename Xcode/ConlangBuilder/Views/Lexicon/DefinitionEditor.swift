@@ -153,5 +153,5 @@ private typealias Appearance = DefinitionEditorAppearance
         .scrollContentBackground(.hidden)
     }
     .padding()
-    .frame(width: 400) // swiftlint:disable:this no_magic_numbers
+    .frame(width: 400)
 }

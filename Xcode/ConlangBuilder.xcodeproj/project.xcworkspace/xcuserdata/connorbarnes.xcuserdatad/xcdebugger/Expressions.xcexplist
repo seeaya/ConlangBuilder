@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "Word.addNewDefinition():Word.swift">
+      </ContextState>
+      <ContextState
+         contextName = "Word.init(conWord:):Word.swift">
+      </ContextState>
+      <ContextState
+         contextName = "Word.orderedDefinitions.getter:Word.swift">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

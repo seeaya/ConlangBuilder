@@ -99,7 +99,6 @@ private extension ModelSelectionSidebar {
     func contextMenuContent(selection: [Model]?) -> some View {
         if let selection {
             Button("Delete") {
-                print("DELETE")
                 delete(models: selection)
             }
         }
@@ -168,21 +167,8 @@ private extension ModelSelectionSidebar {
         var fetchDescriptor = FetchDescriptor<Model>(sortBy: [SortDescriptor(titleKeyPath)])
         fetchDescriptor.includePendingChanges = false
 
-        var newModelIDs: [PersistentIdentifier] = []
-
-        var duration = ContinuousClock().measure {
-            newModelIDs = (try? modelContext.fetchIdentifiers(fetchDescriptor)) ?? []
-        }
-        print("Fetch: \(duration)")
-
-        var newModels: [Model] = []
-
-        duration = ContinuousClock().measure {
-            newModels = newModelIDs.compactMap { modelContext.model(for: $0) as? Model }
-        }
-        print("Type conversion: \(duration)")
-
-        self.models = newModels
+        let newModelIDs = (try? modelContext.fetchIdentifiers(fetchDescriptor)) ?? []
+        self.models = newModelIDs.compactMap { modelContext.model(for: $0) as? Model }
     }
 }
 
